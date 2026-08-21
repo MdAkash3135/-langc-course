@@ -1,0 +1,15 @@
+[project]
+name = "my-project"
+version = "1.0.0"
+
+dependencies = [
+    "Django",
+    "djangorestframework",
+    "langchain",
+    "langchain-core",
+    "langgraph",
+    "langchain-openai",
+    "langchain-anthropic",
+    "python-dotenv"
+
+]
