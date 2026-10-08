@@ -10,6 +10,7 @@ dependencies = [
     "langgraph",
     "langchain-openai",
     "langchain-anthropic",
-    "python-dotenv"
-
+    "python-dotenv",
+    "langchain-community",
+    "chromadb>=1.5.9",
 ]
