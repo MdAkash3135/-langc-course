@@ -70,8 +70,9 @@ def create_kb():
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings_model,
-        persist_directory=tempfile.mkdtempd()
+        persist_directory=tempfile.mkdtemp()
     )
+    return vectorstore
 
 
 
@@ -335,8 +336,8 @@ Format: [Confidence: X] Answer"""
 
 
 if __name__ == "__main__":
-    # demo_basic_rag()
+    demo_basic_rag()
     # demo_rag_with_sources()
     # demo_rag_with_fallback()
     # demo_structured_rag()
-    exercise_document_qa()
+    # exercise_document_qa()
