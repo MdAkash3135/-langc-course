@@ -1455,6 +1455,7 @@ dependencies = [
     { name = "langchain-core" },
     { name = "langchain-openai" },
     { name = "langgraph" },
+    { name = "langsmith" },
     { name = "python-dotenv" },
     { name = "rank-bm25" },
 ]
@@ -1471,6 +1472,7 @@ requires-dist = [
     { name = "langchain-core" },
     { name = "langchain-openai" },
     { name = "langgraph" },
+    { name = "langsmith", specifier = ">=0.11.1" },
     { name = "python-dotenv" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
 ]
