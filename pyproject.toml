@@ -16,4 +16,7 @@ dependencies = [
     "langchain-chroma>=1.1.0",
     "rank-bm25>=0.2.2",
     "langsmith>=0.11.1",
+    "langchain-experimental>=0.4.2",
+    "langchain-text-splitters>=1.1.2",
+    "semantic-text-splitter>=0.33.0",
 ]
